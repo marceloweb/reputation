@@ -1,14 +1,14 @@
-# Requisitos
+@author Marcelo Oliveira<marceloweb.info>
 
-# Libs
+# Dependencies
 gem install oauth
 gem install http
 gem install uri
 gem install json
 gem install yaml
 
-# Abrir arquivo config.yml
-# Cadastrar credenciais da API do Twitter
+# Edit file 
+config.yml
 
-# Executar no terminal
+# Run
 $ ruby script.rb
