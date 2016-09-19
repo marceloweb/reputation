@@ -1,3 +1,8 @@
+/**
+ * @author Marcelo Oliveira<marceloweb.info>
+ * 
+ */
+
 require 'oauth'
 require 'net/http'
 require 'uri'
