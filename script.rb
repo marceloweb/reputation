@@ -1,8 +1,3 @@
-/**
- * @author Marcelo Oliveira<marceloweb.info>
- * 
- */
-
 require 'oauth'
 require 'net/http'
 require 'uri'
@@ -25,7 +20,7 @@ access_token = prepare_access_token(config['access_token'], config['access_token
 
 API_HOST       = "api.twitter.com"
 API_BASE_URL   = "https://#{API_HOST}"
-path           = "/1.1/search/tweets.json?q=%23uol&count=10&result_type=recent"
+path           = "/1.1/search/tweets.json?q=%23treze&count=10&result_type=recent"
 uri = URI.parse "#{API_BASE_URL}#{path}"
 http = Net::HTTP.new(uri.host, uri.port)
 http.use_ssl = true
